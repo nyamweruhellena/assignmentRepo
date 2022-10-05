@@ -1,0 +1,26 @@
+.header-wrapper{
+    .nav-top{
+        width: 100%;
+        background-color: $color(primary);
+        .container{
+            @include display-flex(flex-end);
+            .ul{
+                list-style: none;
+                .li{
+                    float: left;
+                    .a{
+                        color: white;
+                        .a:hover{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.navbar-nav{
+    @include display-flex(flex-end);
+}
