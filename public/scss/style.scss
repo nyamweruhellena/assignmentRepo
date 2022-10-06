@@ -1,0 +1,8 @@
+@import "abstracts/include-media",
+        "abstracts/functions",
+        "abstracts/mixins",
+        "abstracts/variables";
+
+@import 'components/header';
+
+@import 'sections/hero';
